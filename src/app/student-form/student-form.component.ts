@@ -22,6 +22,11 @@ export class StudentFormComponent implements OnInit {
     
    this.createform();
   //  this.update();
+  console.log('hello world');
+  console.log('the value is',this.array);
+  
+
+  
  
    
    }
