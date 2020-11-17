@@ -1,0 +1,23 @@
+<!-- <button [routerLink]="['/one']" routerLinkActive="router-link-active" >add</button> -->
+
+<h1>The Students List Are !!!</h1>
+<table>
+    <tr>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>CLASS</th>
+    <th>SUBJECT</th>
+    <th>MARKS</th>
+    <th>EDIT</th>
+    <th>DELETE</th>
+    </tr>
+    <tr *ngFor="let arr of item">
+        <td>{{arr.id}}</td>
+        <td>{{arr.Name}}</td>
+        <td>{{arr.Class}}</td>
+        <td>{{arr.subject}}</td>
+        <td>{{arr.Marks}}</td> 
+        <td> <button (click)="edit(arr)">Edit</button></td>
+        <td><button (click) ="deleteitem(arr.id)">Delete</button></td>
+    </tr>
+</table>

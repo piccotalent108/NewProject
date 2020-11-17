@@ -1,0 +1,31 @@
+<h1>
+    Register The Student!
+   </h1>
+   <div>
+   <form [formGroup]="LoginForm" (submit) = "onSubmit()">
+   <label class="one">
+     id:
+     <input type="number" formControlName="id"> 
+   </label><br>
+   <label class="two">
+     Name:
+     <input type="text" formControlName="Name">
+   </label><br>
+   
+   <label class="three">
+     Class:
+     <input type="text" formControlName="Class">
+   </label><br>
+   <label class="four">
+     Subject:
+     <input type="text" formControlName="subject">
+   </label><br>
+   <label class="five">
+     Marks:
+     <input  type="number" formControlName="Marks">
+   </label><br>
+   <input type="submit" value="SaveMe" >
+   <!-- <div *ngFor="let arr of array"></div> -->
+    <!-- <button (click)="update()">update</button> -->
+   <!-- </div>   -->
+   </form>
