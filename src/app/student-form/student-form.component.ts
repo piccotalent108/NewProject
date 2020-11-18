@@ -24,6 +24,8 @@ export class StudentFormComponent implements OnInit {
   //  this.update();
   console.log('hello world');
   console.log('the value is',this.array);
+  console.log('bhvgcyfyud');
+  
   
 
   
